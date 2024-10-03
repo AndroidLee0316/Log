@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+try {
+  if ('true' == isRelease) {
+    apply from: 'uploadArchives_release.gradle'
+  } else {
+    apply from: 'uploadArchives.gradle'
+  }
+}catch (Exception e) {
+  apply from: 'uploadArchives.gradle'
+}
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+
+
+
+  defaultConfig {
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.targetSdkVersion
+    versionCode rootProject.ext.versionCode
+    versionName rootProject.ext.versionName
+
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+  }
+
+
+
+  buildTypes {
+    debug{
+      minifyEnabled false
+    }
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  sourceSets {
+    main {
+      res.srcDirs += 'src/main/res-theme'
+    }
+  }
+}
+
+dependencies {
+  implementation fileTree(include: ['*.jar'], dir: 'libs')
+  testImplementation 'junit:junit:4.12'
+  implementation 'com.google.code.gson:gson:2.8.2'
+  api 'com.github.AndroidLee0316:zxs_net:support_2.0.0'
+}

@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+def CERT_FINGER = 'sha256/Imxwsx3YBjlHLuMeZbKEtSablIOifOLu73ntTCelYrA='
+def CERT_FINGER_GOV = 'sha256/u8iz95+7YIOvLedEYZ3KJcB6hATra6Fy1Cpfr9n8Xos='
+
+def PRODUCT_HOST = '"https://isz-app.sz.gov.cn/"'
+def HOST_STG1 = '"http://isz-cloud.yun.city.pingan.com/"'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.pasc.sample.log"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug{
+            buildConfigField "String", "HOST", HOST_STG1//测试
+            buildConfigField "String[]", "CERT_FINGERS",
+              'new String[]{"' + CERT_FINGER + '"}'
+        }
+        release {
+            buildConfigField "String", "HOST", PRODUCT_HOST
+            buildConfigField "String[]", "CERT_FINGERS",
+              'new String[]{"' + CERT_FINGER_GOV + '"}'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
+    testImplementation "junit:junit:$rootProject.ext.junit"
+    androidTestImplementation "com.android.support.test:runner:$rootProject.ext.testRunner"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.ext.testEspresso"
+    implementation project(':LibLog')
+}

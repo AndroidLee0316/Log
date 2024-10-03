@@ -1,0 +1,22 @@
+apply plugin: 'maven'
+
+//uploadArchives {
+//  repositories {
+//    mavenDeployer{
+//      //存放库的maven地址
+//      repository(url : 'http://10.25.84.18:8089/nexus/content/repositories/Android-Snapshots/'){
+//
+//        authentication(userName : 'admin', password : 'admin123')
+//
+//      }
+//
+//      pom.project{
+//
+//        groupId "com.pasc.lib"
+//        artifactId "log"
+//        version rootProject.ext.aarVersion
+//        packaging "aar"
+//      }
+//    }
+//  }
+//}

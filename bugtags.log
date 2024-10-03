@@ -1,0 +1,257 @@
+Initialized native services in: /Users/yintangwen952/.gradle/native
+Removing 0 daemon stop events from registry
+Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+Starting process 'Gradle build daemon'. Working directory: /Users/yintangwen952/.gradle/daemon/4.4 Command: /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin/java -Xmx1536m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -cp /Users/yintangwen952/.gradle/wrapper/dists/gradle-4.4-all/9br9xq1tocpiv8o6njlyu5op1/gradle-4.4/lib/gradle-launcher-4.4.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 4.4
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.039 secs.
+The client will now receive all logging from the daemon (pid: 11519). The daemon log file: /Users/yintangwen952/.gradle/daemon/4.4/daemon-11519.out.log
+Starting build in new daemon [memory: 1.6 GB]
+Using 4 worker leases.
+Creating new cache for fileHashes, path /Users/yintangwen952/.gradle/caches/4.4/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@4d19d799
+Creating new cache for resourceHashesCache, path /Users/yintangwen952/.gradle/caches/4.4/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@4d19d799
+Creating new cache for fileHashes, path /Users/yintangwen952/projects/PascLog/.gradle/4.4/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@1c5f15c1
+Starting Build
+Settings evaluated using settings file '/Users/yintangwen952/projects/PascLog/settings.gradle'.
+Projects loaded. Root project using build file '/Users/yintangwen952/projects/PascLog/build.gradle'.
+Included projects: [root project 'PascLog', project ':app', project ':liblog']
+Evaluating root project 'PascLog' using build file '/Users/yintangwen952/projects/PascLog/build.gradle'.
+Creating new cache for metadata-1.1/results, path /Users/yintangwen952/.gradle/caches/transforms-1/metadata-1.1/results.bin, access org.gradle.cache.internal.DefaultCacheAccess@225358c2
+Creating new cache for metadata-2.36/module-metadata, path /Users/yintangwen952/.gradle/caches/modules-2/metadata-2.36/module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@64d14003
+Creating new cache for metadata-2.36/module-artifact, path /Users/yintangwen952/.gradle/caches/modules-2/metadata-2.36/module-artifact.bin, access org.gradle.cache.internal.DefaultCacheAccess@64d14003
+Evaluating project ':app' using build file '/Users/yintangwen952/projects/PascLog/app/build.gradle'.
+Creating configuration androidTestUtil
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration api
+Creating configuration implementation
+Creating configuration runtimeOnly
+Creating configuration compileOnly
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestApi
+Creating configuration androidTestImplementation
+Creating configuration androidTestRuntimeOnly
+Creating configuration androidTestCompileOnly
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testApi
+Creating configuration testImplementation
+Creating configuration testRuntimeOnly
+Creating configuration testCompileOnly
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugApi
+Creating configuration debugImplementation
+Creating configuration debugRuntimeOnly
+Creating configuration debugCompileOnly
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration androidTestDebugCompile
+Creating configuration androidTestDebugApk
+Creating configuration androidTestDebugProvided
+Creating configuration androidTestDebugApi
+Creating configuration androidTestDebugImplementation
+Creating configuration androidTestDebugRuntimeOnly
+Creating configuration androidTestDebugCompileOnly
+Creating configuration androidTestDebugWearApp
+Creating configuration androidTestDebugAnnotationProcessor
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugApi
+Creating configuration testDebugImplementation
+Creating configuration testDebugRuntimeOnly
+Creating configuration testDebugCompileOnly
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseApi
+Creating configuration releaseImplementation
+Creating configuration releaseRuntimeOnly
+Creating configuration releaseCompileOnly
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseApi
+Creating configuration testReleaseImplementation
+Creating configuration testReleaseRuntimeOnly
+Creating configuration testReleaseCompileOnly
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Parsing the SDK, no caching allowed
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/23.0.2/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/25.0.0/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/25.0.1/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/25.0.2/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/25.0.3/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/26.0.2/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/27.0.1/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/27.0.3/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/28.0.1/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/build-tools/28.0.2/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/emulator/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/extras/android/m2repository/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/extras/google/m2repository/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/patcher/v4/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platform-tools/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-21/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-22/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-23/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-24/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-25/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-26/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-27/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/platforms/android-28/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/sources/android-24/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/sources/android-25/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/sources/android-26/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/sources/android-27/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/system-images/android-24/default/armeabi-v7a/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/system-images/android-27/google_apis/x86/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/system-images/android-27/google_apis_playstore/x86/package.xml
+Parsing /Users/yintangwen952/Library/Android/sdk/tools/package.xml
+SDK initialized in 1011 ms
+Using incremental javac compilation for :app debug.
+Using incremental javac compilation for :app debugUnitTest.
+Using incremental javac compilation for :app release.
+Using incremental javac compilation for :app releaseUnitTest.
+Using incremental javac compilation for :app debugAndroidTest.
+Evaluating project ':liblog' using build file '/Users/yintangwen952/projects/PascLog/liblog/build.gradle'.
+Creating configuration androidTestUtil
+Creating configuration compile
+Creating configuration publish
+Creating configuration provided
+Creating configuration api
+Creating configuration implementation
+Creating configuration runtimeOnly
+Creating configuration compileOnly
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration androidTestCompile
+Creating configuration androidTestPublish
+Creating configuration androidTestProvided
+Creating configuration androidTestApi
+Creating configuration androidTestImplementation
+Creating configuration androidTestRuntimeOnly
+Creating configuration androidTestCompileOnly
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration testCompile
+Creating configuration testPublish
+Creating configuration testProvided
+Creating configuration testApi
+Creating configuration testImplementation
+Creating configuration testRuntimeOnly
+Creating configuration testCompileOnly
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration debugCompile
+Creating configuration debugPublish
+Creating configuration debugProvided
+Creating configuration debugApi
+Creating configuration debugImplementation
+Creating configuration debugRuntimeOnly
+Creating configuration debugCompileOnly
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration androidTestDebugCompile
+Creating configuration androidTestDebugPublish
+Creating configuration androidTestDebugProvided
+Creating configuration androidTestDebugApi
+Creating configuration androidTestDebugImplementation
+Creating configuration androidTestDebugRuntimeOnly
+Creating configuration androidTestDebugCompileOnly
+Creating configuration androidTestDebugWearApp
+Creating configuration androidTestDebugAnnotationProcessor
+Creating configuration testDebugCompile
+Creating configuration testDebugPublish
+Creating configuration testDebugProvided
+Creating configuration testDebugApi
+Creating configuration testDebugImplementation
+Creating configuration testDebugRuntimeOnly
+Creating configuration testDebugCompileOnly
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration releaseCompile
+Creating configuration releasePublish
+Creating configuration releaseProvided
+Creating configuration releaseApi
+Creating configuration releaseImplementation
+Creating configuration releaseRuntimeOnly
+Creating configuration releaseCompileOnly
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration testReleaseCompile
+Creating configuration testReleasePublish
+Creating configuration testReleaseProvided
+Creating configuration testReleaseApi
+Creating configuration testReleaseImplementation
+Creating configuration testReleaseRuntimeOnly
+Creating configuration testReleaseCompileOnly
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Parsing the SDK, no caching allowed
+SDK initialized in 0 ms
+Using incremental javac compilation for :liblog debug.
+Using incremental javac compilation for :liblog debugUnitTest.
+Using incremental javac compilation for :liblog release.
+Using incremental javac compilation for :liblog releaseUnitTest.
+Using incremental javac compilation for :liblog debugAndroidTest.
+All projects evaluated.
+Selected primary task 'clean' from project :
+Selected primary task 'build' from project :
+Creating new cache for annotation-processors, path /Users/yintangwen952/projects/PascLog/.gradle/4.4/fileContent/annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@60457743
+Tasks to be executed: [task ':clean', task ':app:clean', task ':liblog:clean', task ':app:preBuild', task ':app:preDebugBuild', task ':app:compileDebugAidl', task ':app:compileDebugRenderscript', task ':app:checkDebugManifest', task ':app:generateDebugBuildConfig', task ':app:prepareLintJar', task ':app:mainApkListPersistenceDebug', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:processDebugManifest', task ':app:splitsDiscoveryTaskDebug', task ':app:processDebugResources', task ':app:generateDebugSources', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compileDebugNdk', task ':app:compileDebugSources', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:transformClassesWithDexBuilderForDebug', task ':app:transformDexArchiveWithExternalLibsDexMergerForDebug', task ':app:transformDexArchiveWithDexMergerForDebug', task ':app:mergeDebugJniLibFolders', task ':app:transformNativeLibsWithMergeJniLibsForDebug', task ':app:processDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForDebug', task ':app:validateSigningDebug', task ':app:packageDebug', task ':app:assembleDebug', task ':app:preReleaseBuild', task ':app:compileReleaseAidl', task ':app:compileReleaseRenderscript', task ':app:checkReleaseManifest', task ':app:generateReleaseBuildConfig', task ':app:mainApkListPersistenceRelease', task ':app:generateReleaseResValues', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:processReleaseManifest', task ':app:splitsDiscoveryTaskRelease', task ':app:processReleaseResources', task ':app:generateReleaseSources', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':app:compileReleaseNdk', task ':app:compileReleaseSources', task ':app:lintVitalRelease', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':app:mergeReleaseAssets', task ':app:transformClassesWithDexBuilderForRelease', task ':app:transformDexArchiveWithExternalLibsDexMergerForRelease', task ':app:transformDexArchiveWithDexMergerForRelease', task ':app:mergeReleaseJniLibFolders', task ':app:transformNativeLibsWithMergeJniLibsForRelease', task ':app:processReleaseJavaRes', task ':app:transformResourcesWithMergeJavaResForRelease', task ':app:packageRelease', task ':app:assembleRelease', task ':app:assemble', task ':app:lint', task ':app:preDebugUnitTestBuild', task ':app:javaPreCompileDebugUnitTest', task ':app:compileDebugUnitTestJavaWithJavac', task ':app:mockableAndroidJar', task ':app:processDebugUnitTestJavaRes', task ':app:testDebugUnitTest', task ':app:preReleaseUnitTestBuild', task ':app:javaPreCompileReleaseUnitTest', task ':app:compileReleaseUnitTestJavaWithJavac', task ':app:processReleaseUnitTestJavaRes', task ':app:testReleaseUnitTest', task ':app:test', task ':app:check', task ':app:build', task ':liblog:preBuild', task ':liblog:preDebugBuild', task ':liblog:compileDebugAidl', task ':liblog:compileDebugRenderscript', task ':liblog:checkDebugManifest', task ':liblog:generateDebugBuildConfig', task ':liblog:generateDebugResValues', task ':liblog:generateDebugResources', task ':liblog:packageDebugResources', task ':liblog:platformAttrExtractor', task ':liblog:processDebugManifest', task ':liblog:generateDebugRFile', task ':liblog:prepareLintJar', task ':liblog:generateDebugSources', task ':liblog:javaPreCompileDebug', task ':liblog:compileDebugJavaWithJavac', task ':liblog:extractDebugAnnotations', task ':liblog:mergeDebugConsumerProguardFiles', task ':liblog:mergeDebugShaders', task ':liblog:compileDebugShaders', task ':liblog:generateDebugAssets', task ':liblog:packageDebugAssets', task ':liblog:packageDebugRenderscript', task ':liblog:processDebugJavaRes', task ':liblog:transformResourcesWithMergeJavaResForDebug', task ':liblog:transformClassesAndResourcesWithSyncLibJarsForDebug', task ':liblog:compileDebugNdk', task ':liblog:mergeDebugJniLibFolders', task ':liblog:transformNativeLibsWithMergeJniLibsForDebug', task ':liblog:transformNativeLibsWithSyncJniLibsForDebug', task ':liblog:bundleDebug', task ':liblog:compileDebugSources', task ':liblog:assembleDebug', task ':liblog:preReleaseBuild', task ':liblog:compileReleaseAidl', task ':liblog:compileReleaseRenderscript', task ':liblog:checkReleaseManifest', task ':liblog:generateReleaseBuildConfig', task ':liblog:generateReleaseResValues', task ':liblog:generateReleaseResources', task ':liblog:packageReleaseResources', task ':liblog:processReleaseManifest', task ':liblog:generateReleaseRFile', task ':liblog:generateReleaseSources', task ':liblog:javaPreCompileRelease', task ':liblog:compileReleaseJavaWithJavac', task ':liblog:extractReleaseAnnotations', task ':liblog:mergeReleaseConsumerProguardFiles', task ':liblog:mergeReleaseShaders', task ':liblog:compileReleaseShaders', task ':liblog:generateReleaseAssets', task ':liblog:packageReleaseAssets', task ':liblog:packageReleaseRenderscript', task ':liblog:processReleaseJavaRes', task ':liblog:transformResourcesWithMergeJavaResForRelease', task ':liblog:transformClassesAndResourcesWithSyncLibJarsForRelease', task ':liblog:compileReleaseNdk', task ':liblog:mergeReleaseJniLibFolders', task ':liblog:transformNativeLibsWithMergeJniLibsForRelease', task ':liblog:transformNativeLibsWithSyncJniLibsForRelease', task ':liblog:bundleRelease', task ':liblog:compileReleaseSources', task ':liblog:mergeReleaseResources', task ':liblog:verifyReleaseResources', task ':liblog:assembleRelease', task ':liblog:assemble', task ':liblog:lint', task ':liblog:preDebugUnitTestBuild', task ':liblog:javaPreCompileDebugUnitTest', task ':liblog:compileDebugUnitTestJavaWithJavac', task ':liblog:mockableAndroidJar', task ':liblog:processDebugUnitTestJavaRes', task ':liblog:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug', task ':liblog:testDebugUnitTest', task ':liblog:preReleaseUnitTestBuild', task ':liblog:javaPreCompileReleaseUnitTest', task ':liblog:compileReleaseUnitTestJavaWithJavac', task ':liblog:processReleaseUnitTestJavaRes', task ':liblog:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease', task ':liblog:testReleaseUnitTest', task ':liblog:test', task ':liblog:check', task ':liblog:build']
+Creating new cache for resourceHashesCache, path /Users/yintangwen952/projects/PascLog/.gradle/4.4/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@1c5f15c1
+Creating new cache for taskHistory, path /Users/yintangwen952/projects/PascLog/.gradle/4.4/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@4f9464ed
+Creating new cache for outputFiles, path /Users/yintangwen952/projects/PascLog/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@6235888
+:clean (Thread[Task worker for ':' Thread 3,5,main]) started.
+:clean
+Putting task artifact state for task ':clean' into context took 0.001 secs.
+Up-to-date check for task ':clean' took 0.0 secs. It is not up-to-date because:
+  Task has not declared any outputs.
+:clean UP-TO-DATE
+:clean (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.023 secs.
+:app:clean (Thread[Task worker for ':' Thread 3,5,main]) started.
+:app:clean
+Putting task artifact state for task ':app:clean' into context took 0.0 secs.
+Up-to-date check for task ':app:clean' took 0.0 secs. It is not up-to-date because:
+  Task has not declared any outputs.
+:app:clean (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.561 secs.
+:liblog:clean (Thread[Daemon worker,5,main]) started.
+:liblog:clean
+Putting task artifact state for task ':liblog:clean' into context took 0.0 secs.
+Up-to-date check for task ':liblog:clean' took 0.0 secs. It is not up-to-date because:
+  Task has not declared any outputs.
+:liblog:clean (Thread[Daemon worker,5,main]) completed. Took 0.103 secs.
+:app:preBuild (Thread[Daemon worker,5,main]) started.
+:app:preBuild
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild UP-TO-DATE
+:app:preBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:preDebugBuild (Thread[Daemon worker,5,main]) started.
+:app:preDebugBuild
+Putting task artifact state for task ':app:preDebugBuild' into context took 0.005 secs.
+Creating new cache for metadata-2.36/resource-at-url, path /Users/yintangwen952/.gradle/caches/modules-2/metadata-2.36/resource-at-url.bin, access org.gradle.cache.internal.DefaultCacheAccess@64d14003
+Failed to get resource: GET. [HTTP HTTP/1.1 503 Service Unavailable: http://10.25.84.18:8089/nexus/content/repositories/Android-Snapshots/com/pasc/lib/log/1.0.1-SNAPSHOT/maven-metadata.xml]
+Creating new cache for metadata-2.36/module-artifacts, path /Users/yintangwen952/.gradle/caches/modules-2/metadata-2.36/module-artifacts.bin, access org.gradle.cache.internal.DefaultCacheAccess@64d14003
+:app:preDebugBuild FAILED
+:app:preDebugBuild (Thread[Daemon worker,5,main]) completed. Took 20.463 secs.
+4 actionable tasks: 3 executed, 1 up-to-date
