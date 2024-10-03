@@ -1,13 +1,6 @@
 apply plugin: 'com.android.library'
-try {
-  if ('true' == isRelease) {
-    apply from: 'uploadArchives_release.gradle'
-  } else {
-    apply from: 'uploadArchives.gradle'
-  }
-}catch (Exception e) {
-  apply from: 'uploadArchives.gradle'
-}
+apply from: 'uploadArchives_release.gradle'
+
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
