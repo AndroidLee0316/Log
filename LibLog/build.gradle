@@ -1,10 +1,29 @@
 apply plugin: 'com.android.library'
-apply from: 'uploadArchives_release.gradle'
+apply plugin: 'maven-publish'
+//apply from: 'uploadArchives_release.gradle'
+//根据properties中设置的参数来选择不同的上传脚本
+apply plugin: 'com.github.dcendents.android-maven'//this
+group='com.github.AndroidLee0316'//this
+version = "log_1.0.0"//this
+afterEvaluate {
+  publishing {
+    publications {
+      release(MavenPublication) {
+        groupId = 'com.pasc.lib'
+        artifactId = 'log'
+        version = '1.0.1'
+//                // 增加上传源码的 task
+//                artifact sourceJar
+//                // 必须有这个 否则不会上传AAR包  将bundleReleaseAar任务的单个输出文件作为发布的AAR文件。这样，该AAR文件就会成为 MavenPublication 的 artifact 并进行发布
+//                afterEvaluate { artifact(tasks.getByName("bundleReleaseAar")) }
+      }
+    }
+  }
+}
 
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
-
 
 
   defaultConfig {
